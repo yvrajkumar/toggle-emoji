@@ -18,7 +18,8 @@ function App() {
   {
   return (
     <div className="App">
-        <h1 style={{color:"green",cursor:"pointer"}} onClick={toggle}>:)</h1>
+        <h1 style={{margin:"0px"}}>Emoji toggler</h1>
+        <h1 style={{color:"green",cursor:"pointer", paddingLeft:"50%", paddingTop:"5%",paddingBottom:"10%"}} onClick={toggle}>:)</h1>
     </div>
   );
   }
@@ -26,7 +27,8 @@ function App() {
   {
     return (
       <div className="App">
-        <h1 style={{color:"red",cursor:"pointer"}} onClick={toggle}>:(</h1>
+        <h1 style={{margin:"0px"}}>Emoji toggler</h1>
+        <h1 style={{color:"red",cursor:"pointer", paddingLeft:"50%", paddingTop:"5%",paddingBottom:"10%"}} onClick={toggle}>:(</h1>
       </div>
     );
   }
